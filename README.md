@@ -24,8 +24,10 @@ Para todos los puntos el código debe estar debidamente comentado. La legibilida
 Una de las labores del equipo de Data en esta empresa es la de definir métricas para evaluar el desempeño de la compañía. Este punto no tiene una respuesta única y se evaluará su
 creatividad. Para ello usará una base de depósitos en Oinks (depositos_oink.csv). Los Oinks son máquinas en los que la gente puede depositar sus ahorros. Con ella debe construir una métrica que evalúe qué tan buenos (bajo su propio criterio) son los usuarios de Coink y calificar a los usuarios contenidos en la muestra. Cualquier gráfica para aclarar su métrica es bienvenida (use la herramienta de visualización que mejor crea conveniente).<br/>
 <b>Respuesta:</b><br/>
+
 [Aquí Jupyter Notebook](https://github.com/JohanValero/Coink_Test/blob/main/depositos_coink.ipynb)<br/>
 [Aquí reporte PDF](https://github.com/JohanValero/Coink_Test/blob/main/exports/depositos_coink.pdf)<br/>
+
 </li>
 <li>
 
