@@ -27,7 +27,6 @@ creatividad. Para ello usará una base de depósitos en Oinks (depositos_oink.cs
 
 [Aquí Jupyter Notebook](https://github.com/JohanValero/Coink_Test/blob/main/depositos_coink.ipynb)<br/>
 [Aquí reporte PDF](https://github.com/JohanValero/Coink_Test/blob/main/exports/depositos_coink.pdf)<br/>
-
 </li>
 <li>
 Para este cargo es sumamente importante la habilidad de aprender herramientas a medida que se desarrollan nuevos proyectos. Como parte de un proyecto, se le pide al equipo de
@@ -41,8 +40,17 @@ Es recomendado consultar información externa.
 <br/><br/>
 <b>Respuesta:</b> 
 </li>
-
+<br/>
 <li>
+Como científico de datos en Coink debe ser capaz de realizar modelos de aprendizaje supervisado y no supervisado. En este punto tendrá una base con datos públicos (info_satisfaccion_trabajo.xlsx) con la cual deberá desarrollar un script con 2 modelos de aprendizaje supervisado para predecir la variable JobSatisfaction. Se espera que su procedimiento sea claro y que evalúe el desempeño de su modelo. En menos 150 palabras explique cómo monitorearía este modelo en caso en caso de que estuviera desplegado para uso recurrente de la empresa.
+<br/><br/>
+<b>Respuesta:</b><br/>
+Para monitorizar el desempeño del modelo de aprendizaje supervisado, es importante implementar pruebas canarias en los datos de entrada para asegurar que los resultados del modelo son coherentes y precisos. Además, se deben definir métricas de evaluación claras y precisas, tales como la precisión, el recall, la F1-score, y la curva ROC, entre otras, que permitan evaluar el desempeño del modelo.<br/>
+En el caso de que el modelo se despliegue para uso recurrente en la empresa, se deben implementar técnicas de monitoreo continuo, tales como la recolección de métricas en los logs y el análisis de anomalías, para detectar cualquier posible degradación en el desempeño del modelo. Asimismo, se debe llevar un registro detallado de las actualizaciones y cambios en el modelo, a fin de asegurar que estos cambios no afecten negativamente su desempeño.<br/>
+Es importante tener en cuenta que JobSatisfaction no es una métrica adecuada para un modelo de aprendizaje supervisado, ya que se trata de una variable subjetiva y difícil de medir objetivamente. Por lo tanto, se recomienda utilizar otras variables que estén más directamente relacionadas con la satisfacción laboral, como la satisfacción con el ambiente de trabajo, el salario, las oportunidades de crecimiento, entre otros.<br/>
+Para más información de un analisis exploratorio de datos, ir al siguiente Jupyter Notebook:
 
+[Aquí Jupyter Notebook](https://github.com/JohanValero/Coink_Test/blob/main/job_satisfaction.ipynb)<br/>
+[Aquí reporte PDF](https://github.com/JohanValero/Coink_Test/blob/main/exports/job_satisfaction.pdf)<br/>
 </li>
 </ol>
