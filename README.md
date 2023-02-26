@@ -39,6 +39,13 @@ https://aws.amazon.com/es/blogs/machine-learning/call-an-amazon-sagemaker-model-
 Es recomendado consultar información externa.
 <br/><br/>
 <b>Respuesta:</b> 
+Para implementar un modelo de aprendizaje automático en AWS, podemos seguir los siguientes pasos:<br/>
+Preparación de los datos: La preparación de los datos es un paso crucial en cualquier proyecto de aprendizaje automático. Aquí, se debe asegurar que los datos de entrenamiento estén limpios y estructurados correctamente para ser procesados por el modelo.<br/>
+Entrenamiento del modelo: El siguiente paso es entrenar el modelo de aprendizaje automático. Para esto, se puede utilizar Amazon SageMaker, un servicio completamente administrado que ofrece una plataforma de aprendizaje automático escalable y de alta calidad. Amazon SageMaker proporciona una variedad de algoritmos de aprendizaje automático incorporados y la capacidad de personalizar modelos según las necesidades del proyecto.<br/>
+Despliegue del modelo: Una vez que el modelo ha sido entrenado, se puede desplegar en un endpoint de Amazon SageMaker para poder usarlo a través de una API. Esto permite que cualquier aplicación o servicio pueda enviar solicitudes al modelo de aprendizaje automático a través de la API, lo que facilita su uso en aplicaciones en tiempo real.<br/>
+Creación de un API Gateway: Para crear un endpoint para el modelo, se puede utilizar Amazon API Gateway. Este servicio permite la creación de APIs RESTful y WebSocket que actúan como una interfaz entre los clientes y el modelo de aprendizaje automático.<br/>
+Implementación de AWS Lambda: AWS Lambda es un servicio de computación sin servidor que permite ejecutar código en respuesta a eventos, como solicitudes a la API Gateway. Para implementar el modelo de aprendizaje automático, se puede crear una función Lambda que llame al endpoint de SageMaker y devuelva los resultados al cliente a través de la API Gateway.<br/>
+En resumen, el proceso de despliegue de un modelo de aprendizaje automático en AWS consiste en preparar los datos, entrenar el modelo con SageMaker, desplegar el modelo en un endpoint de SageMaker, crear un API Gateway para el endpoint y crear una función Lambda para llamar al modelo y devolver los resultados a través de la API Gateway. Este proceso permite que el modelo de aprendizaje automático sea ejecutado a demanda a través de una API, lo que lo hace fácilmente accesible para cualquier aplicación o servicio que necesite usarlo.
 </li>
 <br/>
 <li>
